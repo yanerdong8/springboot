@@ -5,6 +5,6 @@
     <title>Hello</title>
 </head>
 <body>
-${hello}
+<span>Welcome to yed's website by framemarker</span>
 </body>
 </html>

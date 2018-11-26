@@ -1,6 +1,6 @@
 package com.yed.springboot.mapper;
 
-import com.yed.springboot.domain.User;
+import com.yed.springboot.model.User;
 import org.apache.ibatis.annotations.*;
 
 import java.util.List;

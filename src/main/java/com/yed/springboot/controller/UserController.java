@@ -1,6 +1,6 @@
 package com.yed.springboot.controller;
 
-import com.yed.springboot.domain.User;
+import com.yed.springboot.model.User;
 import com.yed.springboot.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;

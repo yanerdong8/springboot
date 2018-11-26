@@ -1,6 +1,6 @@
 package com.yed.springboot.service;
 
-import com.yed.springboot.domain.User;
+import com.yed.springboot.model.User;
 import com.yed.springboot.mapper.UserMapper;
 import com.yed.springboot.mapper.UserXMLMapper;
 import org.springframework.beans.factory.annotation.Autowired;

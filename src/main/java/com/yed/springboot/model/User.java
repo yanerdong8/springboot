@@ -1,4 +1,4 @@
-package com.yed.springboot.domain;
+package com.yed.springboot.model;
 
 import java.io.Serializable;
 

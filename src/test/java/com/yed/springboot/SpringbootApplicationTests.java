@@ -1,7 +1,5 @@
 package com.yed.springboot;
 
-import com.yed.springboot.domain.User;
-import com.yed.springboot.rabbitmq.HelloReceiver;
 import com.yed.springboot.rabbitmq.HelloSender;
 import com.yed.springboot.rabbitmq.TopicSender;
 import org.junit.Test;

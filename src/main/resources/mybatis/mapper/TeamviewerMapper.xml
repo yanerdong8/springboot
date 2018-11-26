@@ -16,7 +16,7 @@
         id = #{id}
     </update>
 
-    <select id="get">
-        select * from teamviwer where id = '1'
+    <select id="get" resultType="com.yed.teamviewer.model.Teamviewer">
+        select * from teamviewer where id = '1'
     </select>
 </mapper>

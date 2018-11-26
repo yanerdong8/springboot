@@ -15,7 +15,12 @@ public class TeamviewerService {
         Teamviewer oldTeamviewer = teamviewerMapper.get();
         oldTeamviewer.setAccount(teamviewer.getAccount());
         oldTeamviewer.setPassword(teamviewer.getPassword());
-        teamviewerMapper.update(oldTeamviewer);
-        return "{'msg':'OK','code':000000'}";
+        int nResult = teamviewerMapper.update(oldTeamviewer);
+        if (0 == nResult)
+        {
+           return "{\"msg\":\"err\",\"code\":\"999999\"}";
+        }else{
+           return "{\"msg\":\"OK\",\"code\":\"000000\"}";
+        }
     }
 }
